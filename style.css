@@ -105,6 +105,7 @@ h2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
 
 }
 
@@ -113,15 +114,18 @@ h2 {
     
 }
 
-.end {
-    align-self: stretch;
+.reaction .end {
+    justify-self: flex-end;
 }
+
+
 
 .reaction {
     background-color: hsl(0, 100%, 95%);
 }
 .reaction p {
     color: hsl(0, 100%, 67%);
+    justify-self: flex-end;
 }
 
 .memory {
@@ -153,6 +157,7 @@ h2 {
     border-radius: 100px;
     text-align: center;
     margin: auto;
+    transition: 0.4s;
 }
 
 .button a {
@@ -166,6 +171,8 @@ h2 {
 
 .button:hover{
     cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 .button:active {
     background: linear-gradient(0deg, hsl(241, 65%, 47%), rgb(58, 6, 202));
