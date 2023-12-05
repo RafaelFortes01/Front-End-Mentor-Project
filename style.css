@@ -106,7 +106,6 @@ h2 {
     justify-content: flex-start;
     align-items: center;
     
-
 }
 
 .svg {
@@ -118,14 +117,11 @@ h2 {
     justify-self: flex-end;
 }
 
-
-
 .reaction {
     background-color: hsl(0, 100%, 95%);
 }
 .reaction p {
     color: hsl(0, 100%, 67%);
-    justify-self: flex-end;
 }
 
 .memory {
